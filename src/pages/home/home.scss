@@ -1,0 +1,16 @@
+.home {
+    padding-top: 30px;
+    h1 {
+        color: rgb(23, 23, 23);
+    }
+    &-block {
+        width: 700px;
+        min-height: 200px;
+        background-color: #fff;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        padding: 30px;
+        color: rgb(0, 0, 0);
+    }
+}
