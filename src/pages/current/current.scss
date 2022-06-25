@@ -10,12 +10,19 @@
         border: 1px solid rgb(23, 23, 23);
         border-radius: 10px;
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+        padding: 0px 20px;
     }
     &-block {
         margin-top: 50px;
         width: 700px;
-        height: 400px;
+        height: 200px;
         font-size: 50px;
+    }
+    &-sqr {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        display: block;
     }
     .empty {
         font-size: 16px;

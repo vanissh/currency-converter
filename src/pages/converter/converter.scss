@@ -20,7 +20,7 @@
             label {
                 display: block;
             }
-            .currency-input {
+            .converter-selector {
                 margin-top: 20px;
                 width: 320px;
                 height: 40px;
@@ -38,6 +38,14 @@
             padding: 30px 10px;
             color: rgb(0, 0, 0);
             font-size: 50px;
+            overflow: scroll;
+        }
+    }
+    .arrow {
+        img {
+            &:hover {
+                transform: scale(1,1);
+            }
         }
     }
 }

@@ -30,10 +30,8 @@ $shaded: rgb(168, 168, 168);
         a:hover {
             color: $shaded;
         }
-
+        a.active {
+            color: $shaded;
+        }
     }
-}
-
-.active {
-    color: $shaded;
 }

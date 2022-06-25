@@ -21,6 +21,7 @@ function App() {
       .then((result) => {
         setData(Object.entries(result.Valute))
       })
+
   }, [])
 
   return (
@@ -29,7 +30,7 @@ function App() {
         <div className="container">
           <Routes>
             <Route path={'/'} exact element={<Home/>}/>
-            <Route path={'/converter'} exact element={<Converter/>}/>
+            <Route path={'/converter'} exact element={<Converter data={data}/>}/>
             <Route path={'/current_course'} element={<Current data={data}/>}/>
           </Routes>          
         </div>
