@@ -19,7 +19,14 @@
 ![1](https://user-images.githubusercontent.com/74718352/190857065-35f846e8-002b-4211-8d26-2949db1cd324.gif)
 ![2](https://user-images.githubusercontent.com/74718352/190857071-bdf6ed16-bbf8-499b-b62a-2ebe61f716f0.gif)
 
+
 ## Запуск приложения
+
+Установка зависимостей
+```
+npm install
+```
+Запуск
 ```
 npm start
 ```
